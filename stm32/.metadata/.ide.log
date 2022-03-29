@@ -1,0 +1,1009 @@
+2022-03-29 07:54:22,702 [INFO] Activator:177 - 
+
+
+2022-03-29 07:54:22,704 [INFO] Activator:178 - !SESSION log4j initialized
+2022-03-29 07:54:25,131 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-03-29 07:54:28,262 [INFO] McuFinderGlobals:39 - Set McuFinder mode to 2 (CubeIDE integrated)
+2022-03-29 07:54:28,434 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105
+2022-03-29 07:54:28,444 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/mcu/
+2022-03-29 07:54:28,447 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/boardmanager/
+2022-03-29 07:54:28,448 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-03-29 07:54:28,448 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-03-29 07:54:28,451 [INFO] DbExamples:332 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-03-29 07:54:28,463 [INFO] DbMcusAds:119 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,465 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,466 [INFO] DbMcusJson:64 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,467 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,468 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,471 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-03-29 07:54:28,473 [INFO] DbExamplesSqlite:764 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,564 [INFO] RulesReader:57 - Compatibility file has been processed (244 Rules)
+2022-03-29 07:54:28,644 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/mcu/
+2022-03-29 07:54:28,645 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/boardmanager/
+2022-03-29 07:54:28,645 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-03-29 07:54:28,645 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-03-29 07:54:28,645 [INFO] DbExamples:332 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-03-29 07:54:28,647 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,647 [INFO] DbMcusAds:119 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,647 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,648 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,648 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,648 [INFO] DbMcusJson:64 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,648 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,648 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,648 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,648 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,649 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,649 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,649 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-03-29 07:54:28,649 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,649 [INFO] DbExamplesSqlite:764 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,717 [INFO] MainPanel:220 - HeapMemory: 268435456
+2022-03-29 07:54:28,788 [INFO] DbMcusXml:74 - Set database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/mcu/
+2022-03-29 07:54:28,789 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/boardmanager/
+2022-03-29 07:54:28,789 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-03-29 07:54:28,789 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-03-29 07:54:28,789 [INFO] DbExamples:332 - Set plugin images path to: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/plugins/mcufinder/images/
+2022-03-29 07:54:28,789 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,790 [INFO] DbMcusAds:119 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,790 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,790 [INFO] DbMcusDocs:110 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,790 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,790 [INFO] DbMcusJson:64 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,790 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,790 [INFO] DbBoardsDocs:110 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,790 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,791 [INFO] DbBoardsJson:57 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,791 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,791 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,791 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-03-29 07:54:28,791 [WARN] DbFile:35 - Overriding database path with different value: C:\Users\samoc\.stmcufinder\plugins\mcufinder/ => C:\Users\samoc\.stmcufinder\plugins\mcufinder
+2022-03-29 07:54:28,791 [INFO] DbExamplesSqlite:764 - Set database path to: C:\Users\samoc\.stmcufinder\plugins\mcufinder//mcu/
+2022-03-29 07:54:28,808 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105
+2022-03-29 07:54:28,810 [INFO] PluginManage:188 - Search for loadable plugins [exclusion list=, ]
+2022-03-29 07:54:28,811 [INFO] PluginManage:302 - Check plugin analytics
+2022-03-29 07:54:28,944 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-03-29 07:54:28,998 [INFO] AnalyticsPlugin:257 - Accepted Software Licenses: 
+2022-03-29 07:54:28,999 [INFO] AnalyticsPlugin:259 - Accepted CMSIS Pack Licenses: 
+2022-03-29 07:54:28,999 [INFO] AnalyticsPlugin:261 - Accepted Firmware Licenses: 
+2022-03-29 07:54:29,007 [INFO] PluginManage:352 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-03-29 07:54:29,008 [INFO] PluginManage:302 - Check plugin clock
+2022-03-29 07:54:29,017 [INFO] PluginManage:352 - Loaded plugin clock (category:base,tabindex:2)
+2022-03-29 07:54:29,017 [INFO] PluginManage:302 - Check plugin ddr
+2022-03-29 07:54:29,019 [INFO] PluginManage:352 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-03-29 07:54:29,020 [INFO] PluginManage:302 - Check plugin filemanager
+2022-03-29 07:54:29,141 [INFO] PluginManage:352 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-03-29 07:54:29,141 [INFO] PluginManage:302 - Check plugin ipmanager
+2022-03-29 07:54:29,149 [INFO] PluginManage:352 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-03-29 07:54:29,149 [INFO] PluginManage:302 - Check plugin pinoutandconfiguration
+2022-03-29 07:54:29,157 [INFO] PluginManage:352 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-03-29 07:54:29,157 [INFO] PluginManage:302 - Check plugin pinoutconfig
+2022-03-29 07:54:29,187 [INFO] PluginManage:352 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-03-29 07:54:29,187 [INFO] PluginManage:302 - Check plugin power
+2022-03-29 07:54:29,196 [INFO] PluginManage:352 - Loaded plugin power (category:power,tabindex:4)
+2022-03-29 07:54:29,196 [INFO] PluginManage:302 - Check plugin projectmanager
+2022-03-29 07:54:29,213 [INFO] PluginManage:352 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-03-29 07:54:29,213 [INFO] PluginManage:302 - Check plugin thirdparty
+2022-03-29 07:54:29,331 [WARN] IntegrityCheckThread:78 - waiting for thirdparty lock release [integrity check]
+2022-03-29 07:54:29,331 [INFO] PluginManage:352 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-03-29 07:54:29,332 [INFO] IntegrityCheckThread:80 - entering critical section [integrity check]
+2022-03-29 07:54:29,332 [INFO] PluginManage:302 - Check plugin tools
+2022-03-29 07:54:29,334 [INFO] PluginManage:352 - Loaded plugin tools (category:base,tabindex:7)
+2022-03-29 07:54:29,335 [INFO] PluginManage:302 - Check plugin tutovideos
+2022-03-29 07:54:29,335 [INFO] ThirdPartyUpdaterWithRetryManager:66 - Updater plugin not ready yet. [1/15]
+2022-03-29 07:54:29,517 [INFO] PluginManage:352 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2022-03-29 07:54:29,517 [INFO] PluginManage:302 - Check plugin updater
+2022-03-29 07:54:29,527 [INFO] PluginManage:352 - Loaded plugin updater (category:base,tabindex:12)
+2022-03-29 07:54:29,527 [INFO] PluginManage:275 - PluginManage : Loaded plugins [13]
+2022-03-29 07:54:29,679 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-03-29 07:54:29,758 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,758 [INFO] PluginManager:213 - loadIPPluginJar : add adc
+2022-03-29 07:54:29,761 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,761 [INFO] PluginManager:213 - loadIPPluginJar : add aes
+2022-03-29 07:54:29,763 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,764 [INFO] PluginManager:213 - loadIPPluginJar : add can
+2022-03-29 07:54:29,765 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,766 [INFO] PluginManager:213 - loadIPPluginJar : add comp
+2022-03-29 07:54:29,769 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,769 [INFO] PluginManager:213 - loadIPPluginJar : add cryp
+2022-03-29 07:54:29,772 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,772 [INFO] PluginManager:213 - loadIPPluginJar : add dfsdm
+2022-03-29 07:54:29,778 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,779 [INFO] PluginManager:213 - loadIPPluginJar : add dma
+2022-03-29 07:54:29,782 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,782 [INFO] PluginManager:213 - loadIPPluginJar : add dma3
+2022-03-29 07:54:29,784 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,784 [INFO] PluginManager:213 - loadIPPluginJar : add fatfs
+2022-03-29 07:54:29,788 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,789 [INFO] PluginManager:213 - loadIPPluginJar : add fmc
+2022-03-29 07:54:29,794 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,794 [INFO] PluginManager:213 - loadIPPluginJar : add freertos
+2022-03-29 07:54:29,796 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,796 [INFO] PluginManager:213 - loadIPPluginJar : add genericplugin
+2022-03-29 07:54:29,798 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,798 [INFO] PluginManager:213 - loadIPPluginJar : add gfxmmu
+2022-03-29 07:54:29,803 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,804 [INFO] PluginManager:213 - loadIPPluginJar : add gic
+2022-03-29 07:54:29,807 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,807 [INFO] PluginManager:213 - loadIPPluginJar : add gpio
+2022-03-29 07:54:29,810 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,810 [INFO] PluginManager:213 - loadIPPluginJar : add gtzc
+2022-03-29 07:54:29,812 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,812 [INFO] PluginManager:213 - loadIPPluginJar : add hash
+2022-03-29 07:54:29,815 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,815 [INFO] PluginManager:213 - loadIPPluginJar : add i2c
+2022-03-29 07:54:29,817 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,817 [INFO] PluginManager:213 - loadIPPluginJar : add i2s
+2022-03-29 07:54:29,820 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,820 [INFO] PluginManager:213 - loadIPPluginJar : add ipddr
+2022-03-29 07:54:29,826 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,826 [INFO] PluginManager:213 - loadIPPluginJar : add linkedlist
+2022-03-29 07:54:29,828 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,828 [INFO] PluginManager:213 - loadIPPluginJar : add lorawan
+2022-03-29 07:54:29,830 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,830 [INFO] PluginManager:213 - loadIPPluginJar : add ltdc
+2022-03-29 07:54:29,835 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,835 [INFO] PluginManager:213 - loadIPPluginJar : add mdma
+2022-03-29 07:54:29,838 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,839 [INFO] PluginManager:213 - loadIPPluginJar : add nvic
+2022-03-29 07:54:29,841 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,841 [INFO] PluginManager:213 - loadIPPluginJar : add opamp
+2022-03-29 07:54:29,844 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,844 [INFO] PluginManager:213 - loadIPPluginJar : add openamp
+2022-03-29 07:54:29,846 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,847 [INFO] PluginManager:213 - loadIPPluginJar : add pdm2pcm
+2022-03-29 07:54:29,852 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,855 [INFO] PluginManager:213 - loadIPPluginJar : add plateformsettings
+2022-03-29 07:54:29,857 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,857 [INFO] PluginManager:213 - loadIPPluginJar : add quadspi
+2022-03-29 07:54:29,860 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,860 [INFO] PluginManager:213 - loadIPPluginJar : add resmgrutility
+2022-03-29 07:54:29,863 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,863 [INFO] PluginManager:213 - loadIPPluginJar : add sai
+2022-03-29 07:54:29,865 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,865 [INFO] PluginManager:213 - loadIPPluginJar : add spi
+2022-03-29 07:54:29,869 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,870 [INFO] PluginManager:213 - loadIPPluginJar : add stm32_wpan
+2022-03-29 07:54:29,871 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,871 [INFO] PluginManager:213 - loadIPPluginJar : add tim
+2022-03-29 07:54:29,874 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,874 [INFO] PluginManager:213 - loadIPPluginJar : add touchsensing
+2022-03-29 07:54:29,876 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,876 [INFO] PluginManager:213 - loadIPPluginJar : add tracer_emb
+2022-03-29 07:54:29,878 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,878 [INFO] PluginManager:213 - loadIPPluginJar : add ts
+2022-03-29 07:54:29,880 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,880 [INFO] PluginManager:213 - loadIPPluginJar : add tsc
+2022-03-29 07:54:29,881 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,882 [INFO] PluginManager:213 - loadIPPluginJar : add ucpd
+2022-03-29 07:54:29,884 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,884 [INFO] PluginManager:213 - loadIPPluginJar : add usart
+2022-03-29 07:54:29,886 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:54:29,887 [INFO] PluginManager:213 - loadIPPluginJar : add usbx
+2022-03-29 07:54:30,154 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-03-29 07:54:30,248 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-03-29 07:54:30,255 [INFO] DbMcusAds:47 - JSON generation date=Thu Sep 30 03:55:09 BRT 2021 (1632984909247)
+2022-03-29 07:54:30,256 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-03-29 07:54:30,288 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2022-03-29 07:54:30,403 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-03-29 07:54:30,405 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-03-29 07:54:30,405 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-03-29 07:54:30,405 [WARN] DetailPanel:315 - Failed to get advertising image, set to default
+2022-03-29 07:54:30,406 [FATAL] Updater:294 - Updater called before beeing initialized
+2022-03-29 07:54:30,454 [INFO] Updater:1018 - Updater Version found : 6.4.0
+2022-03-29 07:54:30,471 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105
+2022-03-29 07:54:30,832 [INFO] MainUpdater:2729 - connection check result : 10
+2022-03-29 07:54:30,833 [INFO] MainUpdater:276 - Updater Check For Update Now.
+2022-03-29 07:54:30,833 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2022-03-29 07:54:30,987 [INFO] CheckServerUpdateThread:115 - End of CheckServer Thread
+2022-03-29 07:54:31,043 [INFO] MainUpdater:2729 - connection check result : 10
+2022-03-29 07:54:31,045 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2022-03-29 07:54:31,227 [INFO] ServerAccessManage:359 - Download File mcusAds.json._tmp_
+2022-03-29 07:54:31,346 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-03-29 07:54:32,132 [INFO] ServerAccessManage:359 - Download File mcusDocs.json._tmp_
+2022-03-29 07:54:32,339 [WARN] MainUpdater:1180 - Updater busy. Cannot search thirdparties
+2022-03-29 07:54:32,339 [INFO] ThirdPartyUpdaterWithRetryManager:92 - Updater plugin is busy. [1/15]
+2022-03-29 07:54:32,576 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-03-29 07:54:32,709 [INFO] ServerAccessManage:359 - Download File mcusFeaturesAndDescription.json._tmp_
+2022-03-29 07:54:33,806 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-03-29 07:54:33,933 [INFO] ServerAccessManage:359 - Download File boardsDocs.json._tmp_
+2022-03-29 07:54:34,052 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-03-29 07:54:34,180 [INFO] ServerAccessManage:359 - Download File boards.json._tmp_
+2022-03-29 07:54:34,411 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-03-29 07:54:35,352 [WARN] MainUpdater:1180 - Updater busy. Cannot search thirdparties
+2022-03-29 07:54:35,352 [INFO] ThirdPartyUpdaterWithRetryManager:92 - Updater plugin is busy. [2/15]
+2022-03-29 07:54:36,348 [INFO] ServerAccessManage:359 - Download File cube-finder-db.zip
+2022-03-29 07:54:38,134 [INFO] FileExtend:235 - Unzip File : cube-finder-db.zip
+2022-03-29 07:54:38,135 [INFO] FileExtend:250 - Standard Zip Deflate
+2022-03-29 07:54:38,358 [WARN] MainUpdater:1180 - Updater busy. Cannot search thirdparties
+2022-03-29 07:54:38,358 [INFO] ThirdPartyUpdaterWithRetryManager:92 - Updater plugin is busy. [3/15]
+2022-03-29 07:54:38,760 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-03-29 07:54:39,687 [INFO] ServerAccessManage:359 - Download File crdb.zip
+2022-03-29 07:54:40,742 [INFO] FileExtend:235 - Unzip File : crdb.zip
+2022-03-29 07:54:40,743 [INFO] FileExtend:250 - Standard Zip Deflate
+2022-03-29 07:54:40,871 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-03-29 07:54:41,366 [WARN] MainUpdater:1180 - Updater busy. Cannot search thirdparties
+2022-03-29 07:54:41,366 [INFO] ThirdPartyUpdaterWithRetryManager:92 - Updater plugin is busy. [4/15]
+2022-03-29 07:54:42,840 [INFO] ServerAccessManage:359 - Download File tutoVideoDB.zip
+2022-03-29 07:54:42,850 [INFO] FileExtend:235 - Unzip File : tutoVideoDB.zip
+2022-03-29 07:54:42,850 [INFO] FileExtend:250 - Standard Zip Deflate
+2022-03-29 07:54:42,963 [INFO] LoadUrlFilesThread:145 - End of LoadUrlFiles Thread
+2022-03-29 07:54:42,964 [INFO] DbMcusAds:47 - JSON generation date=Thu Sep 30 03:55:10 BRT 2021 (1632984910476)
+2022-03-29 07:54:42,978 [INFO] DbMcusDocs:143 - JSON generation date=Tue Nov 16 13:17:54 BRT 2021 (1637079474)
+2022-03-29 07:54:42,979 [INFO] DbMcusXml:100 - Load MCU database from C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/mcu/families.xml
+2022-03-29 07:54:43,888 [INFO] DbMcusJson:93 - JSON generation date=Tue Nov 16 13:17:54 BRT 2021 (1637079474)
+2022-03-29 07:54:44,524 [WARN] PackLoader:238 - Cannot read IP mode file for wolfSSL.I-CUBE-wolfSSL.5.2.0
+2022-03-29 07:54:44,536 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AI.7.1.0
+2022-03-29 07:54:44,547 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE1.6.2.3
+2022-03-29 07:54:44,555 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-BLE2.3.2.2
+2022-03-29 07:54:44,574 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC4.2.0.3
+2022-03-29 07:54:44,581 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOUCHGFX.4.19.0
+2022-03-29 07:54:44,593 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0
+2022-03-29 07:54:44,627 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F4.1.0.0
+2022-03-29 07:54:44,638 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-NFC7.1.0.0
+2022-03-29 07:54:44,661 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-SUBG2.4.2.0
+2022-03-29 07:54:44,702 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G0.1.0.0
+2022-03-29 07:54:44,715 [WARN] PackLoader:238 - Cannot read IP mode file for RoweBots.I-CUBE-UNISONRTOS.5.5.0-4
+2022-03-29 07:54:44,723 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALGOBUILD.1.3.0
+2022-03-29 07:54:44,784 [INFO] DbMcus:175 - Found 1960 MCUs (1912 are supported by CubeMX, 1912 are visible in CubeMX)
+2022-03-29 07:54:44,789 [INFO] ApiDb:251 - Load user favorites file C:\Users\samoc/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-03-29 07:54:44,790 [INFO] ApiDb:255 - User favorites MCUs=[]
+2022-03-29 07:54:44,790 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2022-03-29 07:54:44,794 [WARN] PackLoader:238 - Cannot read IP mode file for SEGGER.I-CUBE-embOS.1.2.0
+2022-03-29 07:54:44,882 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-H7.2.0.0
+2022-03-29 07:54:44,910 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-G4.1.0.0
+2022-03-29 07:54:44,943 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L4.1.0.0
+2022-03-29 07:54:44,956 [WARN] PackLoader:238 - Cannot read IP mode file for emotas.I-CUBE-CANOPEN.1.1.2
+2022-03-29 07:54:44,993 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-F7.1.0.0
+2022-03-29 07:54:45,011 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-WL.1.0.0
+2022-03-29 07:54:45,066 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-MEMS1.9.1.0
+2022-03-29 07:54:45,247 [WARN] PackLoader:238 - Cannot read IP mode file for portGmbH.I-Cube-SoM-uGOAL.1.1.0
+2022-03-29 07:54:45,251 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-ALS.1.0.1
+2022-03-29 07:54:45,271 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-AZRTOS-L5.1.0.0
+2022-03-29 07:54:45,279 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-EEPRMA1.3.1.1
+2022-03-29 07:54:45,286 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-GNSS1.5.2.0
+2022-03-29 07:54:45,292 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-DISPLAY.2.0.1
+2022-03-29 07:54:45,300 [WARN] PackLoader:238 - Cannot read IP mode file for STMicroelectronics.X-CUBE-TOF1.3.0.0
+2022-03-29 07:54:45,304 [INFO] ThirdParty:925 - Integrity check success = true
+2022-03-29 07:54:45,304 [INFO] IntegrityCheckThread:94 - exiting critical section [integrity check]
+2022-03-29 07:54:45,304 [INFO] IntegrityCheckThread:97 - End integrity checks thread
+2022-03-29 07:54:45,339 [INFO] DbMcusDocs:79 - Found 682 MCUs documents
+2022-03-29 07:54:45,341 [INFO] ApiDb:276 - Save user favorites file C:\Users\samoc/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-03-29 07:54:45,342 [INFO] ApiDb:280 - User favorites MCUs=[]
+2022-03-29 07:54:45,342 [INFO] DbMcusXml:100 - Load MCU database from C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\/mcu/families.xml
+2022-03-29 07:54:46,081 [INFO] DbMcusJson:93 - JSON generation date=Tue Nov 16 13:17:54 BRT 2021 (1637079474)
+2022-03-29 07:54:46,839 [INFO] DbMcus:175 - Found 1960 MCUs (1912 are supported by CubeMX, 1912 are visible in CubeMX)
+2022-03-29 07:54:46,840 [INFO] ApiDb:251 - Load user favorites file C:\Users\samoc/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-03-29 07:54:46,840 [INFO] ApiDb:255 - User favorites MCUs=[]
+2022-03-29 07:54:46,840 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2022-03-29 07:54:46,850 [INFO] DbBoardsDocs:143 - JSON generation date=Tue Nov 16 13:17:54 BRT 2021 (1637079474)
+2022-03-29 07:54:46,861 [INFO] DbBoardsPdsc:90 - Found 26 items
+2022-03-29 07:54:46,864 [INFO] DbBoardsPdsc:90 - Found 9 items
+2022-03-29 07:54:46,868 [INFO] DbBoardsPdsc:90 - Found 33 items
+2022-03-29 07:54:46,870 [INFO] DbBoardsPdsc:90 - Found 1 items
+2022-03-29 07:54:46,879 [INFO] DbBoardsPdsc:90 - Found 48 items
+2022-03-29 07:54:46,888 [INFO] DbBoardsPdsc:90 - Found 43 items
+2022-03-29 07:54:46,890 [INFO] DbBoardsPdsc:90 - Found 2 items
+2022-03-29 07:54:46,891 [INFO] DbBoardsPdsc:90 - Found 5 items
+2022-03-29 07:54:46,897 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2022-03-29 07:54:46,897 [WARN] DbBoardsPdsc:254 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2022-03-29 07:54:46,899 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2022-03-29 07:54:46,899 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2022-03-29 07:54:46,899 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2022-03-29 07:54:46,899 [WARN] DbBoardsPdsc:254 - Board STM32U575I-EV: unknown feature type=joystick, name=, username=4-direction joystick with selection button, n=1
+2022-03-29 07:54:46,953 [INFO] DbBoardsJson:86 - JSON generation date=Tue Nov 16 13:17:54 BRT 2021 (1637079474)
+2022-03-29 07:54:46,964 [INFO] DbBoards:117 - Found 167 boards (164 are supported by CubeMX)
+2022-03-29 07:54:46,967 [INFO] DbBoardsDocs:143 - JSON generation date=Tue Nov 16 13:17:54 BRT 2021 (1637079474)
+2022-03-29 07:54:46,972 [INFO] DbBoardsDocs:79 - Found 209 boards documents
+2022-03-29 07:54:46,974 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2022-03-29 07:54:46,976 [WARN] DbBoards:127 - board NUCLEO-H743ZI has no document id list !
+2022-03-29 07:54:46,978 [WARN] DbBoards:127 - board NUCLEO-WL55JC2 has no document id list !
+2022-03-29 07:54:46,978 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2022-03-29 07:54:46,978 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2022-03-29 07:54:46,978 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2022-03-29 07:54:46,978 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2022-03-29 07:54:46,978 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2022-03-29 07:54:46,978 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2022-03-29 07:54:46,978 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2022-03-29 07:54:46,978 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2022-03-29 07:54:46,978 [WARN] DbBoards:127 - board STEVAL-STWINKT1B has no document id list !
+2022-03-29 07:54:46,979 [WARN] DbBoards:127 - board STM32439I-EVAL2 has no document id list !
+2022-03-29 07:54:46,979 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2022-03-29 07:54:46,980 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2022-03-29 07:54:46,981 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2022-03-29 07:54:46,981 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2022-03-29 07:54:46,981 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2022-03-29 07:54:46,982 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2022-03-29 07:54:46,982 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2022-03-29 07:54:48,957 [INFO] ApiDb:251 - Load user favorites file C:\Users\samoc/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-03-29 07:54:48,958 [INFO] ApiDb:255 - User favorites Boards=[]
+2022-03-29 07:54:48,958 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2022-03-29 07:54:48,962 [INFO] DbBoardsDocs:79 - Found 418 boards documents
+2022-03-29 07:54:48,963 [INFO] ApiDb:276 - Save user favorites file C:\Users\samoc/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-03-29 07:54:48,963 [INFO] ApiDb:280 - User favorites Boards=[]
+2022-03-29 07:54:48,967 [INFO] DbBoardsPdsc:90 - Found 26 items
+2022-03-29 07:54:48,969 [INFO] DbBoardsPdsc:90 - Found 9 items
+2022-03-29 07:54:48,973 [INFO] DbBoardsPdsc:90 - Found 33 items
+2022-03-29 07:54:48,974 [INFO] DbBoardsPdsc:90 - Found 1 items
+2022-03-29 07:54:48,980 [INFO] DbBoardsPdsc:90 - Found 48 items
+2022-03-29 07:54:48,986 [INFO] DbBoardsPdsc:90 - Found 43 items
+2022-03-29 07:54:48,987 [INFO] DbBoardsPdsc:90 - Found 2 items
+2022-03-29 07:54:48,989 [INFO] DbBoardsPdsc:90 - Found 5 items
+2022-03-29 07:54:48,991 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2022-03-29 07:54:48,992 [WARN] DbBoardsPdsc:254 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2022-03-29 07:54:48,993 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2022-03-29 07:54:48,993 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2022-03-29 07:54:48,994 [WARN] DbBoardsPdsc:254 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2022-03-29 07:54:48,994 [WARN] DbBoardsPdsc:254 - Board STM32U575I-EV: unknown feature type=joystick, name=, username=4-direction joystick with selection button, n=1
+2022-03-29 07:54:49,015 [INFO] DbBoardsJson:86 - JSON generation date=Tue Nov 16 13:17:54 BRT 2021 (1637079474)
+2022-03-29 07:54:49,021 [INFO] DbBoards:117 - Found 167 boards (164 are supported by CubeMX)
+2022-03-29 07:54:49,022 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2022-03-29 07:54:49,023 [WARN] DbBoards:127 - board NUCLEO-H743ZI has no document id list !
+2022-03-29 07:54:49,023 [WARN] DbBoards:127 - board NUCLEO-WL55JC2 has no document id list !
+2022-03-29 07:54:49,023 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2022-03-29 07:54:49,023 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2022-03-29 07:54:49,023 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2022-03-29 07:54:49,023 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2022-03-29 07:54:49,023 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2022-03-29 07:54:49,024 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2022-03-29 07:54:49,024 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2022-03-29 07:54:49,024 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2022-03-29 07:54:49,024 [WARN] DbBoards:127 - board STEVAL-STWINKT1B has no document id list !
+2022-03-29 07:54:49,024 [WARN] DbBoards:127 - board STM32439I-EVAL2 has no document id list !
+2022-03-29 07:54:49,024 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2022-03-29 07:54:49,024 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2022-03-29 07:54:49,024 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2022-03-29 07:54:49,024 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2022-03-29 07:54:49,024 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2022-03-29 07:54:49,024 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2022-03-29 07:54:49,024 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2022-03-29 07:54:50,473 [INFO] ApiDb:251 - Load user favorites file C:\Users\samoc/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-03-29 07:54:50,473 [INFO] ApiDb:255 - User favorites Boards=[]
+2022-03-29 07:54:50,473 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2022-03-29 07:54:50,598 [INFO] ServerAccessManage:359 - Download File 
+2022-03-29 07:54:50,691 [INFO] LoadUrlFilesThread:172 - End of LoadServerUrlFiles without Thread
+2022-03-29 07:54:50,691 [INFO] TargetSelectorAdapter:228 - Refresh data is successful
+2022-03-29 07:54:50,776 [INFO] ApiDb:479 - Connected to CubeFinder SQLite database (C:\Users\samoc\.stmcufinder\plugins\mcufinder\mcu\cube-finder-db.db)
+2022-03-29 07:54:51,662 [INFO] DbExamplesSqlite:408 - Ignored 24 examples not supported by CubeIDE
+2022-03-29 07:54:51,663 [INFO] DbExamplesSqlite:409 - Found 6135 examples active
+2022-03-29 07:54:51,663 [INFO] DbExamplesSqlite:410 - Found 64 examples obsolete
+2022-03-29 07:54:51,663 [INFO] DbExamplesSqlite:411 - Found 0 examples under development
+2022-03-29 07:54:51,663 [INFO] DbExamplesSqlite:412 - Found 96 examples not building
+2022-03-29 07:54:51,684 [INFO] DbExamplesSqlite:108 - CubeFinder database Data Model version=2.1
+2022-03-29 07:54:51,685 [INFO] DbExamplesSqlite:109 - CubeFinder database Configuration version=3.0.28
+2022-03-29 07:54:51,685 [INFO] DbExamplesSqlite:110 - CubeFinder database generation date=2022-02-18 (1645170766)
+2022-03-29 07:54:51,685 [INFO] DbExamplesSqlite:111 - CubeFinder database FW Pack versions=[STM32Cube_FW_C0_V1.0.0, STM32Cube_FW_F4_V1.27.0, STM32Cube_FW_F7_V1.16.2, STM32Cube_FW_G0_V1.5.0, STM32Cube_FW_G4_V1.5.0, STM32Cube_FW_H7_V1.10.0, STM32Cube_FW_L5_V1.4.0, STM32Cube_FW_U5_V1.1.0, STM32Cube_FW_WB_V1.13.1, STM32Cube_FW_WL_V1.2.0, X-CUBE-ALGOBUILD_V1.3.0, X-CUBE-ALS_V1.0.1, X-CUBE-AZRTOS-F4_V1.0.0, X-CUBE-AZRTOS-F7_V1.0.0, X-CUBE-AZRTOS-G0_V1.0.0, X-CUBE-AZRTOS-G4_V1.0.0, X-CUBE-AZRTOS-H7_V2.0.0, X-CUBE-AZRTOS-L4_V1.0.0, X-CUBE-AZRTOS-L5_V1.0.0, X-CUBE-AZRTOS-WL_V1.0.0, X-CUBE-BLE1_V6.2.1, X-CUBE-BLE2_V3.2.2, X-CUBE-EEPRMA1_V3.1.0, X-CUBE-GNSS1_V5.2.0, X-CUBE-MEMS1_V9.1.0, X-CUBE-NFC4_V2.0.3, X-CUBE-SFXS2LP1_V3.1.0, X-CUBE-SUBG2_V4.2.0]
+2022-03-29 07:54:51,686 [INFO] DbExamples:129 - Found 6207 examples
+2022-03-29 07:54:52,674 [ERROR] DbExamples:205 - Found 106 examples with invalid data (board or MCU)
+2022-03-29 07:54:52,675 [INFO] DbExamples:221 - Found 74 boards with related examples
+2022-03-29 07:54:52,690 [INFO] DbExamples:234 - Found 62 MCUs with related examples
+2022-03-29 07:54:52,715 [INFO] ApiDb:242 - User favorites file not found: C:\Users\samoc/.stm32cubeide/favorites.examples.txt
+2022-03-29 07:54:52,715 [INFO] DbExamples:255 - Set 0 / 0 favorites Examples
+2022-03-29 07:54:52,852 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2022-03-29 07:54:52,943 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\samoc\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2022-03-29 07:54:52,948 [INFO] MultiScanPanel:197 - Auto-refresh data requested => check proxy status ongoing
+2022-03-29 07:54:52,950 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2022-03-29 07:54:53,411 [INFO] LoadUrlFilesThread:172 - End of LoadServerUrlFiles without Thread
+2022-03-29 07:54:53,426 [INFO] DetailPanel:310 - Set advertising image to C:/Users/samoc/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-03-29 07:55:08,860 [INFO] MultiScanPanel:197 - Auto-refresh data requested => check proxy status ongoing
+2022-03-29 07:55:08,927 [INFO] LoadUrlFilesThread:172 - End of LoadServerUrlFiles without Thread
+2022-03-29 07:55:08,928 [INFO] DetailPanel:310 - Set advertising image to C:/Users/samoc/STM32Cube/Repository/\en.Prom_NBSTM32U50921.jpg
+2022-03-29 07:56:45,536 [INFO] MainUpdater:2729 - connection check result : 10
+2022-03-29 07:56:45,537 [INFO] MainUpdater:2729 - connection check result : 10
+2022-03-29 07:56:45,551 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-03-29 07:56:45,552 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2022-03-29 07:56:45,552 [WARN] ThirdParty:823 - waiting for thirdparty lock release [close project]
+2022-03-29 07:56:45,552 [INFO] ThirdParty:825 - entering critical section [close project]
+2022-03-29 07:56:45,553 [INFO] ThirdParty:835 - exiting critical section [close project]
+2022-03-29 07:56:45,556 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-03-29 07:56:45,562 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 620627656 Bytes (724566016)
+2022-03-29 07:56:45,563 [INFO] MicroXplorer:447 - Change Database Path : 
+2022-03-29 07:56:45,564 [INFO] MicroXplorer:477 - Change Database Version : DB.6.0.40
+2022-03-29 07:56:45,564 [INFO] OpenFileManager:313 - Change cursor
+2022-03-29 07:56:46,508 [INFO] Context:592 - Trying to add GPIOservice into a context  which must be forbidden
+2022-03-29 07:56:46,803 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2022-03-29 07:56:46,803 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) Unable to find key (Mcu.PinsNb) in loaded IOC file
+2022-03-29 07:56:46,803 [INFO] ImportTextPane:167 - (OptionalMessage_ERROR) Unable to find key (Mcu.IPNb) in loaded IOC file
+2022-03-29 07:56:46,867 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-03-29 07:56:46,868 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-03-29 07:56:46,868 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-03-29 07:56:46,891 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,891 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,891 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,891 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,891 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,891 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,892 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,892 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,892 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,892 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,892 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,892 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,892 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,892 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,892 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,892 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,892 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,892 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,893 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,893 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,893 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,893 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,893 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,893 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,893 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,893 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,893 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,893 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,893 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,893 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,894 [WARN] ModelIntegratedComponent:60 - No mode defined for component null
+2022-03-29 07:56:46,896 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC07A1' from pack STMicroelectronics.X-CUBE-NFC7.1.0.0: no header file found
+2022-03-29 07:56:46,903 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-03-29 07:56:46,904 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-03-29 07:56:46,904 [WARN] ApiManager:304 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-03-29 07:56:47,135 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-03-29 07:56:47,135 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-03-29 07:56:47,135 [WARN] ApiManager:304 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-03-29 07:56:47,145 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.3: no header file found
+2022-03-29 07:56:47,148 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2022-03-29 07:56:47,148 [INFO] RtosManager:484 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2022-03-29 07:56:47,148 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2022-03-29 07:56:47,148 [INFO] RtosManager:484 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2022-03-29 07:56:47,148 [WARN] ModelIntegratedComponent:181 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2022-03-29 07:56:47,155 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-03-29 07:56:47,155 [WARN] ApiManager:304 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-03-29 07:56:47,156 [WARN] ApiManager:304 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-03-29 07:56:47,156 [WARN] ApiManager:304 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-03-29 07:56:47,156 [WARN] ApiManager:304 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-03-29 07:56:47,157 [WARN] ApiManager:304 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.2: no header file found
+2022-03-29 07:56:47,158 [WARN] ApiManager:304 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.3: no header file found
+2022-03-29 07:56:48,743 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 609038480 Bytes (724566016)
+2022-03-29 07:56:48,759 [WARN] ThirdParty:785 - waiting for thirdparty lock release [change project]
+2022-03-29 07:56:48,759 [INFO] ThirdParty:787 - entering critical section [change project]
+2022-03-29 07:56:48,760 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2022-03-29 07:56:48,760 [INFO] ThirdParty:977 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.2.0
+2022-03-29 07:56:48,760 [INFO] ThirdParty:977 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2022-03-29 07:56:48,761 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.0.0
+2022-03-29 07:56:48,761 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2022-03-29 07:56:48,761 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.0.0
+2022-03-29 07:56:48,761 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2022-03-29 07:56:48,761 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2022-03-29 07:56:48,761 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2022-03-29 07:56:48,761 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2022-03-29 07:56:48,761 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2022-03-29 07:56:48,761 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2022-03-29 07:56:48,762 [INFO] ThirdParty:977 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.2
+2022-03-29 07:56:48,762 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2022-03-29 07:56:48,762 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2022-03-29 07:56:48,762 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2022-03-29 07:56:48,762 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2022-03-29 07:56:48,762 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.2.0
+2022-03-29 07:56:48,763 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-03-29 07:56:48,763 [INFO] ThirdParty:977 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.3
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.0.0
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.1
+2022-03-29 07:56:48,764 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2022-03-29 07:56:48,765 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2022-03-29 07:56:48,765 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.19.0
+2022-03-29 07:56:48,765 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.0.0
+2022-03-29 07:56:48,765 [INFO] ThirdParty:977 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2022-03-29 07:56:48,765 [INFO] ThirdParty:793 - exiting critical section [change project]
+2022-03-29 07:56:49,095 [INFO] PinOutPanel:1463 - setPackage(No Configuration,No Configuration)
+2022-03-29 07:56:49,096 [INFO] PinOutPanel:1463 - setPackage(STM32F103C8Tx,LQFP48)
+2022-03-29 07:56:49,534 [INFO] UtilMem:74 - Before build in PCC Used Memory: 632112600 Bytes (724566016)
+2022-03-29 07:56:50,211 [INFO] UtilMem:74 - After build in PCC Used Memory: 598471488 Bytes (724566016)
+2022-03-29 07:56:50,238 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,239 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,239 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,239 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,239 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,239 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,239 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,240 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,241 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,241 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,242 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,242 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,242 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,243 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,243 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,243 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,244 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,244 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,244 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,245 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,245 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,245 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,246 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,246 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,247 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,247 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,248 [INFO] IPUIPlugin:74 - create IPUIPlugin
+2022-03-29 07:56:50,437 [INFO] OpenFileManager:333 - Restore cursor
+2022-03-29 07:56:50,802 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 546148960 Bytes (724566016)
+2022-03-29 07:56:52,039 [INFO] ServerAccessManage:359 - Download File stm32cube_fw_f1_v180.zip
+2022-03-29 07:56:59,613 [ERROR] FileExtend:450 - File entry not found
+2022-03-29 07:56:59,614 [INFO] FileExtend:235 - Unzip File : stm32cube_fw_f1_v180.zip
+2022-03-29 07:56:59,615 [INFO] FileExtend:250 - Standard Zip Deflate
+2022-03-29 07:57:22,009 [INFO] ServerAccessManage:359 - Download File stm32cube_fw_f1_v184.zip
+2022-03-29 07:57:24,780 [INFO] FileExtend:235 - Unzip File : stm32cube_fw_f1_v184.zip
+2022-03-29 07:57:24,780 [INFO] FileExtend:250 - Standard Zip Deflate
+2022-03-29 07:57:32,925 [INFO] LoadServerPackagesThread:180 - End of LoadServerPackages Thread
+2022-03-29 07:57:33,091 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 733546344 Bytes (1073741824)
+2022-03-29 07:57:33,684 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-29 07:57:33,684 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-29 07:57:33,684 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-29 07:57:33,685 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-03-29 07:57:34,042 [INFO] CheckServerUpdateThread:115 - End of CheckServer Thread
+2022-03-29 07:57:34,290 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\license.tmp_save
+2022-03-29 07:57:34,673 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\license.tmp
+2022-03-29 07:57:34,773 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_it.c_save
+2022-03-29 07:57:34,913 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_it.c
+2022-03-29 07:57:34,917 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_it.h_save
+2022-03-29 07:57:35,001 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_it.h
+2022-03-29 07:57:35,011 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_hal_msp.c_save
+2022-03-29 07:57:35,137 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_hal_msp.c
+2022-03-29 07:57:35,141 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\system.tmp_save
+2022-03-29 07:57:35,221 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\system.tmp
+2022-03-29 07:57:35,231 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-03-29 07:57:35,396 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_hal_conf.h
+2022-03-29 07:57:35,441 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\main.h_save
+2022-03-29 07:57:35,537 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\main.h
+2022-03-29 07:57:35,541 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\main.c_save
+2022-03-29 07:57:35,662 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\main.c
+2022-03-29 07:57:36,874 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 228mS.
+2022-03-29 07:57:36,894 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-03-29 07:57:37,577 [INFO] ConfigFileManager:1273 - The Die is : DIE410
+2022-03-29 07:57:37,592 [INFO] ApiDbMcu:488 - Load IP Config File for FATFS
+2022-03-29 07:57:37,622 [INFO] ApiDbMcu:488 - Load IP Config File for FREERTOS
+2022-03-29 07:57:37,651 [INFO] ApiDbMcu:488 - Load IP Config File for USB_DEVICE
+2022-03-29 07:57:42,347 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 5453mS.
+2022-03-29 07:57:42,348 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-03-29 07:57:42,351 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-03-29 07:57:42,661 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
+2022-03-29 07:57:42,667 [INFO] ApiDb:276 - Save user favorites file C:\Users\samoc/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-03-29 07:57:42,668 [INFO] ApiDb:280 - User favorites MCUs=[]
+2022-03-29 07:57:42,669 [INFO] ApiDb:276 - Save user favorites file C:\Users\samoc/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-03-29 07:57:42,670 [INFO] ApiDb:280 - User favorites Boards=[]
+2022-03-29 08:01:39,840 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 773763960 Bytes (1073741824)
+2022-03-29 08:01:41,948 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 797353976 Bytes (1073741824)
+2022-03-29 08:01:50,090 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 560382264 Bytes (1073741824)
+2022-03-29 08:01:50,439 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-29 08:01:50,439 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-29 08:01:50,439 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-29 08:01:50,439 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-29 08:01:50,440 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-03-29 08:01:50,770 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\license.tmp_save
+2022-03-29 08:01:50,840 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\license.tmp
+2022-03-29 08:01:50,858 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\gpio.tmp_save
+2022-03-29 08:01:50,940 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\gpio.tmp
+2022-03-29 08:01:50,962 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_it.c_save
+2022-03-29 08:01:51,077 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_it.c
+2022-03-29 08:01:51,087 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_it.h_save
+2022-03-29 08:01:51,159 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_it.h
+2022-03-29 08:01:51,173 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_hal_msp.c_save
+2022-03-29 08:01:51,292 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_hal_msp.c
+2022-03-29 08:01:51,296 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\system.tmp_save
+2022-03-29 08:01:51,365 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\system.tmp
+2022-03-29 08:01:51,380 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-03-29 08:01:51,477 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_hal_conf.h
+2022-03-29 08:01:51,516 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\main.h_save
+2022-03-29 08:01:51,599 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\main.h
+2022-03-29 08:01:51,609 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\main.c_save
+2022-03-29 08:01:51,738 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\main.c
+2022-03-29 08:01:53,114 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 255mS.
+2022-03-29 08:01:53,119 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-03-29 08:01:53,773 [INFO] ConfigFileManager:1273 - The Die is : DIE410
+2022-03-29 08:01:55,813 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2694mS.
+2022-03-29 08:01:55,814 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-03-29 08:01:55,816 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-03-29 08:16:18,497 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,521x295,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:16:33,920 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:16:35,593 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:16:39,733 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 602588616 Bytes (1073741824)
+2022-03-29 08:16:53,628 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 625979480 Bytes (1073741824)
+2022-03-29 08:16:54,104 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 660615688 Bytes (1073741824)
+2022-03-29 08:16:54,490 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-29 08:16:54,490 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-03-29 08:16:54,490 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-03-29 08:16:54,491 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-03-29 08:16:54,491 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-29 08:16:54,491 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-29 08:16:54,491 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-29 08:16:54,492 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-03-29 08:16:54,891 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\license.tmp_save
+2022-03-29 08:16:54,988 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\license.tmp
+2022-03-29 08:16:55,032 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\gpio.tmp_save
+2022-03-29 08:16:55,111 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\gpio.tmp
+2022-03-29 08:16:55,309 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_it.c_save
+2022-03-29 08:16:55,512 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_it.c
+2022-03-29 08:16:55,517 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_it.h_save
+2022-03-29 08:16:55,597 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_it.h
+2022-03-29 08:16:55,614 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_hal_msp.c_save
+2022-03-29 08:16:55,746 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_hal_msp.c
+2022-03-29 08:16:55,749 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\system.tmp_save
+2022-03-29 08:16:55,816 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\system.tmp
+2022-03-29 08:16:55,829 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-03-29 08:16:55,922 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_hal_conf.h
+2022-03-29 08:16:55,947 [WARN] IPConfigManager:3151 - IP not found : TIM
+2022-03-29 08:16:55,948 [WARN] CodeGenerator:3358 - IP not found : null
+2022-03-29 08:16:55,960 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\main.h_save
+2022-03-29 08:16:56,034 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\main.h
+2022-03-29 08:16:56,044 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\main.c_save
+2022-03-29 08:16:56,195 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\main.c
+2022-03-29 08:16:57,514 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 247mS.
+2022-03-29 08:16:57,518 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-03-29 08:16:58,130 [INFO] ConfigFileManager:1273 - The Die is : DIE410
+2022-03-29 08:17:00,094 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2576mS.
+2022-03-29 08:17:00,094 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-03-29 08:17:00,097 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-03-29 08:17:44,869 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:18:00,453 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:18:05,770 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:20:41,135 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:20:54,999 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:21:09,014 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:23:24,847 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 809448528 Bytes (1073741824)
+2022-03-29 08:23:31,640 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 859791488 Bytes (1073741824)
+2022-03-29 08:23:32,155 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 894747840 Bytes (1073741824)
+2022-03-29 08:23:32,544 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-29 08:23:32,544 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-03-29 08:23:32,544 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-03-29 08:23:32,544 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-29 08:23:32,545 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-29 08:23:32,545 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-29 08:23:32,546 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-03-29 08:23:32,940 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\license.tmp_save
+2022-03-29 08:23:33,018 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\license.tmp
+2022-03-29 08:23:33,041 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\gpio.tmp_save
+2022-03-29 08:23:33,122 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\gpio.tmp
+2022-03-29 08:23:33,382 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_it.c_save
+2022-03-29 08:23:33,499 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_it.c
+2022-03-29 08:23:33,505 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_it.h_save
+2022-03-29 08:23:33,586 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_it.h
+2022-03-29 08:23:33,603 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_hal_msp.c_save
+2022-03-29 08:23:33,743 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_hal_msp.c
+2022-03-29 08:23:33,747 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\system.tmp_save
+2022-03-29 08:23:33,821 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\system.tmp
+2022-03-29 08:23:33,834 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-03-29 08:23:33,927 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_hal_conf.h
+2022-03-29 08:23:33,951 [WARN] IPConfigManager:3151 - IP not found : TIM
+2022-03-29 08:23:33,952 [WARN] CodeGenerator:3358 - IP not found : null
+2022-03-29 08:23:33,964 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\main.h_save
+2022-03-29 08:23:34,052 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\main.h
+2022-03-29 08:23:34,062 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\main.c_save
+2022-03-29 08:23:34,239 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\main.c
+2022-03-29 08:23:35,407 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 240mS.
+2022-03-29 08:23:35,517 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-03-29 08:23:36,036 [INFO] ConfigFileManager:1273 - The Die is : DIE410
+2022-03-29 08:23:38,217 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2699mS.
+2022-03-29 08:23:38,218 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 1mS.
+2022-03-29 08:23:38,220 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-03-29 08:31:43,529 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,529 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,549 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,549 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,550 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,550 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,569 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,569 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,570 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,570 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,585 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,585 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,586 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,586 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,646 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,647 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,649 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,650 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,656 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:31:43,656 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:32:40,420 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,521x295,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:32:41,714 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:32:47,519 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:32:49,517 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:32:50,906 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:32:52,559 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:33:02,686 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:33:06,467 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:33:10,753 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:33:15,270 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:33:15,429 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:33:18,782 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:33:18,998 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:33:21,075 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:33:21,237 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:33:23,584 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:33:23,749 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:33:57,784 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:34:03,239 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,521x295,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:34:06,624 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 746918608 Bytes (1073741824)
+2022-03-29 08:34:08,160 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 770513616 Bytes (1073741824)
+2022-03-29 08:34:08,734 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 805311208 Bytes (1073741824)
+2022-03-29 08:34:09,154 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-29 08:34:09,154 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-03-29 08:34:09,154 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-03-29 08:34:09,154 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-29 08:34:09,155 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-29 08:34:09,155 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-29 08:34:09,155 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: I2C
+2022-03-29 08:34:09,156 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-03-29 08:34:09,159 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:34:09,159 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:34:09,573 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\license.tmp_save
+2022-03-29 08:34:09,717 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\license.tmp
+2022-03-29 08:34:09,754 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\gpio.tmp_save
+2022-03-29 08:34:09,840 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\gpio.tmp
+2022-03-29 08:34:10,199 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_it.c_save
+2022-03-29 08:34:10,307 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_it.c
+2022-03-29 08:34:10,312 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_it.h_save
+2022-03-29 08:34:10,390 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_it.h
+2022-03-29 08:34:10,406 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_hal_msp.c_save
+2022-03-29 08:34:10,558 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_hal_msp.c
+2022-03-29 08:34:10,561 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\system.tmp_save
+2022-03-29 08:34:10,625 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\system.tmp
+2022-03-29 08:34:10,640 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-03-29 08:34:10,738 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_hal_conf.h
+2022-03-29 08:34:10,769 [WARN] IPConfigManager:3151 - IP not found : TIM
+2022-03-29 08:34:10,770 [WARN] CodeGenerator:3358 - IP not found : null
+2022-03-29 08:34:10,783 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\main.h_save
+2022-03-29 08:34:10,880 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\main.h
+2022-03-29 08:34:10,889 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\main.c_save
+2022-03-29 08:34:11,049 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\main.c
+2022-03-29 08:34:12,453 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 256mS.
+2022-03-29 08:34:12,458 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-03-29 08:34:13,086 [INFO] ConfigFileManager:1273 - The Die is : DIE410
+2022-03-29 08:34:15,345 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 2887mS.
+2022-03-29 08:34:15,345 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-03-29 08:34:15,348 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-03-29 08:35:47,941 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:35:48,056 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:48,056 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:48,057 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:48,057 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:48,108 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:48,108 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:48,148 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:48,148 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:48,213 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:35:53,711 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:35:53,794 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:53,794 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:53,795 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:53,795 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:53,835 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:53,835 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:53,881 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:53,882 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:53,948 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:35:57,424 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:35:57,531 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:57,532 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:57,532 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:57,533 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:57,585 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:57,585 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:57,637 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:57,637 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:35:57,721 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:00,137 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:00,221 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:00,221 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:00,221 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:00,222 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:00,262 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:00,262 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:00,302 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:00,302 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:00,370 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:02,547 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:02,672 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:02,672 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:02,673 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:02,673 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:02,724 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:02,725 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:02,768 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:02,768 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:02,849 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:05,273 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:05,377 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:05,377 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:05,378 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:05,378 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:05,429 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:05,429 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:05,487 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:05,488 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:05,565 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:08,382 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:08,507 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:08,597 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:08,598 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:08,598 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:08,598 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:08,638 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:08,639 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:08,679 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:08,680 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:08,751 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:10,846 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:10,938 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:10,938 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:10,939 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:10,939 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:10,986 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:10,986 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:11,038 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:11,038 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:11,121 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:13,656 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:13,739 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:13,739 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:13,740 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:13,740 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:13,790 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:13,790 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:13,854 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:13,854 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:13,935 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:16,376 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:16,498 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:16,498 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:16,499 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:16,499 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:16,550 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:16,551 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:16,601 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:16,602 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:16,683 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:19,125 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:19,212 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:19,212 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:19,213 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:19,213 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:19,253 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:19,254 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:19,294 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:19,294 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:19,363 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:21,961 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:22,052 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:22,053 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:22,053 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:22,053 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:22,096 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:22,096 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:22,158 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:22,158 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:22,224 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:24,939 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:36:25,040 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:25,040 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:25,041 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:25,041 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:25,091 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:25,091 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:25,142 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:25,143 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:36:25,237 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:37:03,024 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:37:03,126 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:03,126 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:03,127 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:03,127 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:03,179 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:03,179 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:03,232 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:03,232 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:03,310 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:37:06,107 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:37:06,188 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:06,188 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:06,188 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:06,189 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:06,229 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:06,229 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:06,270 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:06,270 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:06,342 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:37:27,677 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:37:27,784 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:27,785 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:27,785 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:27,786 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:27,836 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:27,837 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:27,889 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:27,889 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:27,978 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:37:30,362 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:37:30,478 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:30,478 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:30,479 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:30,479 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:30,524 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:30,524 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:30,576 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:30,576 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:30,661 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:37:33,454 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:37:33,578 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:33,578 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:33,579 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:33,579 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:33,630 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:33,631 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:33,683 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:33,684 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:33,770 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:37:50,168 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:37:50,248 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:50,249 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:50,249 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:50,249 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:50,294 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:50,294 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:50,358 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:50,359 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:37:50,443 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-03-29 08:37:58,178 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 715926768 Bytes (1073741824)
+2022-03-29 08:37:59,828 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 733930528 Bytes (1073741824)
+2022-03-29 08:38:00,363 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 764161264 Bytes (1073741824)
+2022-03-29 08:38:00,760 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-03-29 08:38:00,760 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-03-29 08:38:00,761 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-03-29 08:38:00,761 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-03-29 08:38:00,761 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-03-29 08:38:00,761 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-03-29 08:38:00,761 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: I2C
+2022-03-29 08:38:00,762 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.8.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.4.0.202111222105\\db\
+2022-03-29 08:38:00,765 [WARN] IP:2107 - I2C_Coeff_DF not found: check if there is a RefParameter without a condition.
+2022-03-29 08:38:00,765 [WARN] IP:2107 - Analog_Filter not found: check if there is a RefParameter without a condition.
+2022-03-29 08:38:01,253 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\license.tmp_save
+2022-03-29 08:38:01,329 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\license.tmp
+2022-03-29 08:38:01,404 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\gpio.tmp_save
+2022-03-29 08:38:01,514 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\gpio.tmp
+2022-03-29 08:38:01,949 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_it.c_save
+2022-03-29 08:38:02,043 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_it.c
+2022-03-29 08:38:02,048 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_it.h_save
+2022-03-29 08:38:02,119 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_it.h
+2022-03-29 08:38:02,135 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_hal_msp.c_save
+2022-03-29 08:38:02,273 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\stm32f1xx_hal_msp.c
+2022-03-29 08:38:02,277 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\system.tmp_save
+2022-03-29 08:38:02,337 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\MXTmpFiles\system.tmp
+2022-03-29 08:38:02,350 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-03-29 08:38:02,458 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\stm32f1xx_hal_conf.h
+2022-03-29 08:38:02,487 [WARN] IPConfigManager:3151 - IP not found : TIM
+2022-03-29 08:38:02,488 [WARN] CodeGenerator:3358 - IP not found : null
+2022-03-29 08:38:02,501 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\main.h_save
+2022-03-29 08:38:02,579 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Inc\main.h
+2022-03-29 08:38:02,590 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\main.c_save
+2022-03-29 08:38:02,749 [INFO] CodeEngine:257 - Generated code: C:\Users\samoc\Desktop\Omni-Robot\stm32\Omni-Robot\Core\Src\main.c
+2022-03-29 08:38:04,002 [INFO] ProjectBuilder:2589 - Time for Copy HAL[1] : 289mS.
+2022-03-29 08:38:04,007 [INFO] ProjectBuilder:3665 - Project Generator version: 3.15.2
+2022-03-29 08:38:04,616 [INFO] ConfigFileManager:1273 - The Die is : DIE410
+2022-03-29 08:38:07,183 [INFO] ProjectBuilder:3832 - Time for Generating toolchain IDE Files: 3176mS.
+2022-03-29 08:38:07,184 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
+2022-03-29 08:38:07,187 [INFO] ProjectBuilder:2461 - Time for Copy CMSIS : 0mS.
