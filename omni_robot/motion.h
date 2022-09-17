@@ -17,6 +17,14 @@ private:
         *br_motor;
 
 public:
+    /**
+     * @brief Construtor da classe omniRobot
+     * @param _fl_motor: motor frontal esquerdo
+     * @param _fr_motor: motor frontal direito
+     * @param _bl_motor: motor traseiro esquerdo
+     * @param _br_motor: motor traseiro direito
+     * @example omniRobot robot(&fl_motor, &fr_motor, &bl_motor, &br_motor);
+     */
     omniRobot(stepper *_fl_motor,
               stepper *_fr_motor,
               stepper *_bl_motor,
@@ -28,29 +36,36 @@ public:
         this->br_motor = _br_motor;
     }
 
-    void move(int8_t _xAcell, int8_t _yAcell)
+    /**
+     * @brief move o robô omnidirecional
+     * @param _xAcell: aceleração no eixo x (de -127 a 127)
+     * @param _yAcell: aceleração no eixo y (de -127 a 127)
+     * @param _wAcell: aceleração no eixo de rotação (de -127 a 127)
+     * @example robot.move(127, 127, 0); // move o robô para a diagonal superior direita
+     */
+
+    void move(int8_t _xAcell, int8_t _yAcell, int8_t _wAcell = 0)
     {
 
-        if ((_yAcell != 0) && (_xAcell == 0))
+        uint8_t axis = 0;
+        if (_xAcell != 0)
+            axis++;
+        if (_yAcell != 0)
+            axis++;
+        if (_wAcell != 0)
+            axis++;
+
+        if (axis > 0)
         {
-            fl_speed = _yAcell;
-            fr_speed = _yAcell;
-            bl_speed = _yAcell;
-            br_speed = _yAcell;
-        }
-        else if ((_yAcell == 0) && (_xAcell != 0))
-        {
-            fl_speed = _xAcell;
-            fr_speed = -_xAcell;
-            bl_speed = -_xAcell;
-            br_speed = _xAcell;
-        }
-        else if ((_yAcell != 0) && (_xAcell != 0))
-        {
-            fl_speed = (_yAcell + _xAcell) / 2;
-            fr_speed = (_yAcell - _xAcell) / 2;
-            bl_speed = (_yAcell - _xAcell) / 2;
-            br_speed = (_yAcell + _xAcell) / 2;
+            fl_speed = (_yAcell + _xAcell + _wAcell) / axis;
+            fr_speed = (_yAcell - _xAcell - _wAcell) / axis;
+            bl_speed = (_yAcell - _xAcell + _wAcell) / axis;
+            br_speed = (_yAcell + _xAcell - _wAcell) / axis;
+
+            fl_motor->run(fl_speed);
+            fr_motor->run(fr_speed);
+            bl_motor->run(bl_speed);
+            br_motor->run(br_speed);
         }
         else
         {
@@ -59,11 +74,6 @@ public:
             bl_speed = 0;
             br_speed = 0;
         }
-
-        fl_motor->run(fl_speed);
-        fr_motor->run(fr_speed);
-        bl_motor->run(bl_speed);
-        br_motor->run(br_speed);
     }
 };
 #endif
