@@ -4,7 +4,6 @@
 
 #define minVell 7000
 #define maxVell 500
-
 #define adress 12
 
 stepper bl_motor(2, 5, 8, minVell, maxVell);
@@ -43,9 +42,14 @@ void loop()
     x = sin((angle * 3.14) / 180) * 127;
     y = cos((angle * 3.14) / 180) * 127;
   */
+  
+  Serial.print("x:");
   Serial.print(x);
+  Serial.print(" y:");
   Serial.print(y);
+  Serial.print(" w:");
   Serial.println(w);
+  
   robot.move(x, y, w);
 }
 
