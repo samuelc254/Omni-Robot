@@ -1,17 +1,11 @@
 #include <Wire.h>
 #include "stepper.h"
 #include "motion.h"
+#include "debug.h"
 
-#define SERIAL_LOG 1
-#if SERIAL_LOG == 1
-#define SerialBegin(x) Serial.begin(x)
-#define SerialPrint(x) Serial.print(String(x))
-#define SerialPrintln(x) Serial.println(String(x))
-#else
-#define SerialBegin(x)
-#define SerialPrint(x)
-#define SerialPrintln(x)
-#endif
+#define DEBUG_MODE 1
+#define DEBUG_LOG 1
+#define I2C_EVENT 0
 
 #define minVell 7000
 #define maxVell 500
@@ -24,44 +18,32 @@ stepper fr_motor(12, 13, 8, minVell, maxVell);
 
 omniRobot robot(&fl_motor, &fr_motor, &bl_motor, &br_motor);
 
-/*
-  uint32_t lastMillis = 0,
-         radius = 200;
-*/
-
 int8_t x = 0,
        y = 0,
        w = 0;
 
 void setup()
 {
+  SerialBegin(9600);
+#if I2C_EVENT == 1
   Wire.begin(adress);
   Wire.onReceive(receiveEvent);
-
-  SerialBegin(9600);
+#endif
 }
-
 void loop()
 {
-  /*
-    if (millis() >= lastMillis + radius)
-    {
-     angle++;
-     lastMillis = millis();
-    }
-
-    x = sin((angle * 3.14) / 180) * 127;
-    y = cos((angle * 3.14) / 180) * 127;
-  */
-  
   SerialPrint("x");
   SerialPrint(x);
   SerialPrint(" y");
   SerialPrint(y);
   SerialPrint(" w");
   SerialPrintln(w);
-  
+
+#if DEBUG_MODE == 0
   robot.move(x, y, w);
+#else
+  debug_mode();
+#endif
 }
 
 void receiveEvent(int howMany) {
