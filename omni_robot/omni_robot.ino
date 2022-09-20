@@ -2,6 +2,17 @@
 #include "stepper.h"
 #include "motion.h"
 
+#define SERIAL_LOG 1
+#if SERIAL_LOG == 1
+#define SerialBegin(x) Serial.begin(x)
+#define SerialPrint(x) Serial.print(String(x))
+#define SerialPrintln(x) Serial.println(String(x))
+#else
+#define SerialBegin(x)
+#define SerialPrint(x)
+#define SerialPrintln(x)
+#endif
+
 #define minVell 7000
 #define maxVell 500
 #define adress 12
@@ -27,7 +38,7 @@ void setup()
   Wire.begin(adress);
   Wire.onReceive(receiveEvent);
 
-  Serial.begin(9600);
+  SerialBegin(9600);
 }
 
 void loop()
@@ -43,12 +54,12 @@ void loop()
     y = cos((angle * 3.14) / 180) * 127;
   */
   
-  Serial.print("x:");
-  Serial.print(x);
-  Serial.print(" y:");
-  Serial.print(y);
-  Serial.print(" w:");
-  Serial.println(w);
+  SerialPrint("x");
+  SerialPrint(x);
+  SerialPrint(" y");
+  SerialPrint(y);
+  SerialPrint(" w");
+  SerialPrintln(w);
   
   robot.move(x, y, w);
 }
