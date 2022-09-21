@@ -1,11 +1,20 @@
 #include <Wire.h>
 #include "stepper.h"
 #include "motion.h"
-#include "debug.h"
 
 #define DEBUG_MODE 1
 #define DEBUG_LOG 1
 #define I2C_EVENT 0
+
+#if DEBUG_LOG == 1
+#define SerialBegin(x) Serial.begin(x)
+#define SerialPrint(x) Serial.print(String(x))
+#define SerialPrintln(x) Serial.println(String(x))
+#else
+#define SerialBegin(x)
+#define SerialPrint(x)
+#define SerialPrintln(x)
+#endif
 
 #define minVell 7000
 #define maxVell 500
@@ -22,6 +31,28 @@ int8_t x = 0,
        y = 0,
        w = 0;
 
+#if DEBUG_MODE == 1
+inline void debug_mode() __attribute__((always_inline));
+void debug_mode()
+{
+  static uint32_t lastMillis = 0,
+                  radius = 200;
+
+  static int8_t angle = 0;
+
+  if (millis() >= lastMillis + radius)
+  {
+    angle++;
+    lastMillis = millis();
+  }
+
+  x = sin((angle * 3.14) / 180) * 127;
+  y = cos((angle * 3.14) / 180) * 127;
+
+  robot.move(x, y);
+}
+#endif
+
 void setup()
 {
   SerialBegin(9600);
@@ -30,6 +61,7 @@ void setup()
   Wire.onReceive(receiveEvent);
 #endif
 }
+
 void loop()
 {
   SerialPrint("x");
@@ -46,10 +78,14 @@ void loop()
 #endif
 }
 
-void receiveEvent(int howMany) {
-  if (Wire.available()) {
+#if I2C_EVENT == 1
+void receiveEvent(int howMany)
+{
+  if (Wire.available())
+  {
     x = Wire.read();
     y = Wire.read();
     w = Wire.read();
   }
 }
+#endif
