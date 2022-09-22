@@ -2,9 +2,9 @@
 #include "stepper.h"
 #include "motion.h"
 
-#define DEBUG_MODE 1
-#define DEBUG_LOG 1
-#define I2C_EVENT 0
+#define DEBUG_MODE 0
+#define DEBUG_LOG 0
+#define I2C_EVENT 1
 
 #if DEBUG_LOG == 1
 #define SerialBegin(x) Serial.begin(x)
@@ -17,7 +17,7 @@
 #endif
 
 #define minVell 7000
-#define maxVell 500
+#define maxVell 800
 #define adress 12
 
 stepper bl_motor(2, 5, 8, minVell, maxVell);
