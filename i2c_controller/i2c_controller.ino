@@ -12,18 +12,16 @@
 #define SerialPrintln(x)
 #endif
 
-#define xPin A0
-#define yPin A1
-#define wPin A2
 #define led 15
 
 #define deadzone 8
 
-int8_t axis[3];
+int8_t pins[] = {18, 19, 20},
+       axis[3];
 
 uint16_t reads[3],
-         maxReads[3] = {0, 0, 0},
-         minReads[3] = {0, 0, 0};
+         maxReads[] = {0, 0, 0},
+         minReads[] = {0, 0, 0};
 
 uint32_t lastBlink = 0;
 
@@ -32,9 +30,10 @@ void setup()
   Wire.begin();
   SerialBegin(9600);
 
-  pinMode(xPin, INPUT);
-  pinMode(yPin, INPUT);
-  pinMode(wPin, INPUT);
+  for (int i; i < 3; i++)
+  {
+    pinMode(pins[i], INPUT);
+  }
   pinMode(led, OUTPUT);
 }
 
@@ -46,12 +45,10 @@ void loop()
     lastBlink = millis();
   }
 
-  reads[0] = analogRead(xPin);
-  reads[1] = analogRead(yPin);
-  reads[2] = analogRead(wPin);
 
   for (int i = 0; i < 3; i++)
   {
+    reads[i] = analogRead(pins[i]);
     if (reads[i] > maxReads[i])
       maxReads[i] = reads[i];
     if (reads[i] < minReads[i])
