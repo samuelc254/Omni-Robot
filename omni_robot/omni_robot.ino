@@ -3,7 +3,7 @@
 #include "motion.h"
 
 #define DEBUG_MODE 0
-#define DEBUG_LOG 0
+#define DEBUG_LOG 1
 #define I2C_EVENT 1
 
 #if DEBUG_LOG == 1
@@ -36,7 +36,7 @@ inline void debug_mode() __attribute__((always_inline));
 void debug_mode()
 {
   static uint32_t lastMillis = 0,
-                  radius = 200;
+                  radius = 100;
 
   static int8_t angle = 0;
 
