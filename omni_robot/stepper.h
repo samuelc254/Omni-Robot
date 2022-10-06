@@ -71,24 +71,27 @@ public:
     void run(int8_t Vell)
     {
 
+        if (Vell > 0)
+            stepDelay = Vell;
+        else if (Vell < 0)
+            stepDelay = -Vell;
+        else
+            return;
+
+        stepDelay = map(stepDelay, 0, 127, minVell, maxVell);
+
         if (micros() - lastStep >= stepDelay)
         {
             if (Vell > 0)
             {
-                stepDelay = Vell;
                 digitalWrite(directionPin, HIGH);
                 currentPosition++;
             }
-            else if (Vell < 0)
+            else
             {
-                stepDelay = -Vell;
                 digitalWrite(directionPin, LOW);
                 currentPosition--;
             }
-            else
-                return;
-
-            stepDelay = map(stepDelay, 0, 127, minVell, maxVell);
 
             digitalWrite(stepPin, HIGH);
             delayMicroseconds(1);

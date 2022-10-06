@@ -46,34 +46,41 @@ public:
 
     void move(int8_t _xAcell, int8_t _yAcell, int8_t _wAcell = 0)
     {
+        if (_xAcell == 0 && _yAcell == 0 && _wAcell == 0)
+            return;
 
-        uint8_t axis = 0;
-        if (_xAcell != 0)
-            axis++;
-        if (_yAcell != 0)
-            axis++;
-        if (_wAcell != 0)
-            axis++;
+        fl_speed = (_yAcell + _xAcell + _wAcell);
+        fr_speed = (_yAcell - _xAcell - _wAcell);
+        bl_speed = (_yAcell - _xAcell + _wAcell);
+        br_speed = (_yAcell + _xAcell - _wAcell);
 
-        if (axis > 0)
-        {
-            fl_speed = (_yAcell + _xAcell + _wAcell) / axis;
-            fr_speed = (_yAcell - _xAcell - _wAcell) / axis;
-            bl_speed = (_yAcell - _xAcell + _wAcell) / axis;
-            br_speed = (_yAcell + _xAcell - _wAcell) / axis;
+        // check the greatest aceeleration module
+        int8_t max_acell = abs(_xAcell);
+        if (abs(_yAcell) > max_acell)
+            max_acell = abs(_yAcell);
+        if (abs(_wAcell) > max_acell)
+            max_acell = abs(_wAcell);
 
-            fl_motor->run(fl_speed);
-            fr_motor->run(fr_speed);
-            bl_motor->run(bl_speed);
-            br_motor->run(br_speed);
-        }
-        else
-        {
-            fl_speed = 0;
-            fr_speed = 0;
-            bl_speed = 0;
-            br_speed = 0;
-        }
+        // check the greatest speed module
+        int8_t max_speed = abs(fl_speed);
+        if (abs(fr_speed) > max_speed)
+            max_speed = abs(fr_speed);
+        if (abs(bl_speed) > max_speed)
+            max_speed = abs(bl_speed);
+        if (abs(br_speed) > max_speed)
+            max_speed = abs(br_speed);
+
+        // normalize the speed values
+        float speed_factor = max_acell / max_speed;
+        fl_speed *= speed_factor;
+        fr_speed *= speed_factor;
+        bl_speed *= speed_factor;
+        br_speed *= speed_factor;
+
+        fl_motor->run(fl_speed);
+        fr_motor->run(fr_speed);
+        bl_motor->run(bl_speed);
+        br_motor->run(br_speed);
     }
 };
 #endif
