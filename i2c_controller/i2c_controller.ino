@@ -38,7 +38,7 @@ void setup()
   pinMode(redLed1, OUTPUT);
   pinMode(redLed2, OUTPUT);
 
-  for (int i; i < 3; i++)
+  for (int i = 0; i < 3; i++)
   {
     pinMode(pins[i], INPUT);
   }
