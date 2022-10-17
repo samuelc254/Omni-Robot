@@ -6,17 +6,17 @@
 class omniRobot
 {
 private:
-    int8_t fl_speed,
-        fr_speed,
-        bl_speed,
-        br_speed;
-
     stepper *fl_motor,
         *fr_motor,
         *bl_motor,
         *br_motor;
 
 public:
+    int16_t fl_speed,
+        fr_speed,
+        bl_speed,
+        br_speed;
+
     /**
      * @brief Construtor da classe omniRobot
      * @param _fl_motor: motor frontal esquerdo
@@ -62,7 +62,7 @@ public:
             max_acell = abs(_wAcell);
 
         // check the greatest speed module
-        int8_t max_speed = abs(fl_speed);
+        int16_t max_speed = abs(fl_speed);
         if (abs(fr_speed) > max_speed)
             max_speed = abs(fr_speed);
         if (abs(bl_speed) > max_speed)
@@ -71,7 +71,7 @@ public:
             max_speed = abs(br_speed);
 
         // normalize the speed values
-        float speed_factor = max_acell / max_speed;
+        float speed_factor = (float)max_acell / (float)max_speed;
         fl_speed *= speed_factor;
         fr_speed *= speed_factor;
         bl_speed *= speed_factor;
