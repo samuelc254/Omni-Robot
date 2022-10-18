@@ -1,6 +1,6 @@
+#include "include/stepper.h"
+#include "include/motion.h"
 #include <Wire.h>
-#include "stepper.h"
-#include "motion.h"
 
 #define DEBUG_MODE 1
 #define DEBUG_LOG 1
