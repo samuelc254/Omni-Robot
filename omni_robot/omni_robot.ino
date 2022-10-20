@@ -2,9 +2,9 @@
 #include "include/motion.h"
 #include <Wire.h>
 
-#define DEBUG_MODE 1
-#define DEBUG_LOG 1
-#define I2C_EVENT 0
+#define DEBUG_MODE 0
+#define DEBUG_LOG 0
+#define I2C_EVENT 1
 
 #if DEBUG_LOG == 1
 #define SerialBegin(x) Serial.begin(x)
@@ -33,7 +33,7 @@ int8_t x = 0,
 
 void setup()
 {
-  SerialBegin(9600);
+  SerialBegin(2000000);
 #if I2C_EVENT == 1
   Wire.begin(adress);
   Wire.onReceive(receiveEvent);
