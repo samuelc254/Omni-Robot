@@ -24,7 +24,7 @@ stepper::stepper(uint8_t _stepPin,
 
 void stepper::run(int8_t Vell)
 {
-    if (!stepDelay)
+    if (!Vell)
         return;
 
     stepDelay = (Vell > 0) ? Vell : -Vell;
