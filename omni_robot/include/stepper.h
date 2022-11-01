@@ -2,13 +2,17 @@
 #define stepper_included
 
 #include <Arduino.h>
+#include "MEGA_cpu_map.h"
 
 class stepper
 {
 private:
-    uint8_t stepPin,
-        directionPin,
-        enablePin;
+    volatile uint8_t *stepPort;
+    uint8_t stepBit;
+    volatile uint8_t *directionPort;
+    uint8_t directionBit;
+    volatile uint8_t *enablePort;
+    uint8_t enableBit;
 
     int32_t targetPossition;
 
@@ -29,9 +33,12 @@ public:
      * @param _maxVell: velocidade máxima do motor em microssegundos (valores mais baixos significam velocidades mais altas)
      * @example stepper motor(2, 5, 8, 7000, 800); // cria um objeto stepper chamado motor
      */
-    stepper(uint8_t _stepPin,
-            uint8_t _directionPin,
-            uint8_t _enablePin,
+    stepper(volatile uint8_t *_stepPort,
+            uint8_t _stepBit,
+            volatile uint8_t *_directionPort,
+            uint8_t _directionBit,
+            volatile uint8_t *_enablePort,
+            uint8_t _enableBit,
             uint32_t _minVell,
             uint32_t _maxVell);
 

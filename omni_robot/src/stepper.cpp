@@ -1,14 +1,21 @@
 #include "../include/stepper.h"
 
-stepper::stepper(uint8_t _stepPin,
-                 uint8_t _directionPin,
-                 uint8_t _enablePin,
+stepper::stepper(volatile uint8_t *_stepPort,
+                 uint8_t _stepBit,
+                 volatile uint8_t *_directionPort,
+                 uint8_t _directionBit,
+                 volatile uint8_t *_enablePort,
+                 uint8_t _enableBit,
                  uint32_t _minVell,
                  uint32_t _maxVell)
 {
-    stepPin = _stepPin;
-    directionPin = _directionPin;
-    enablePin = _enablePin;
+    &stepPort = &_stepPort;
+    &directionPort = &_directionPort;
+    &enablePort = &_enablePort;
+    stepBit = _stepBit;
+    directionBit = _directionBit;
+    enableBit = _enableBit;
+
     minVell = _minVell;
     maxVell = _maxVell;
 
@@ -34,18 +41,18 @@ void stepper::run(int8_t Vell)
     {
         if (Vell > 0)
         {
-            digitalWrite(directionPin, HIGH);
+            WriteBit(directionPort, directionBit, HIGH);
             currentPosition++;
         }
         else
         {
-            digitalWrite(directionPin, LOW);
+            WriteBit(directionPort, directionBit, LOW);
             currentPosition--;
         }
 
-        digitalWrite(stepPin, HIGH);
+        WriteBit(stepPort, stepBit, HIGH);
         delayMicroseconds(1);
-        digitalWrite(stepPin, LOW);
+        WriteBit(stepPort, stepBit, LOW);
         lastStep = micros();
     }
 }
@@ -62,17 +69,17 @@ void stepper::stepTo(int32_t _targetPossition, uint8_t vell)
         {
             if ((targetPossition - currentPosition) > 0)
             {
-                digitalWrite(directionPin, HIGH);
+                WriteBit(directionPort, directionBit, HIGH);
                 currentPosition++;
             }
             else
             {
-                digitalWrite(directionPin, LOW);
+                WriteBit(directionPort, directionBit, LOW);
                 currentPosition--;
             }
-            digitalWrite(stepPin, HIGH);
+            WriteBit(stepPort, stepBit, HIGH);
             delayMicroseconds(1);
-            digitalWrite(stepPin, LOW);
+            WriteBit(stepPort, stepBit, LOW);
             lastStep = micros();
         }
     }

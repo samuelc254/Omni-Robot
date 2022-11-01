@@ -1,5 +1,5 @@
-#include "include/stepper.h"
-#include "include/motion.h"
+#include "./include/stepper.h"
+#include "./include/motion.h"
 #include <Wire.h>
 
 #define DEBUG_MODE 0
