@@ -20,10 +20,22 @@
 #define maxVell 800
 #define adress 12
 
-stepper bl_motor(2, 5, 8, minVell, maxVell);
-stepper fl_motor(3, 6, 8, minVell, maxVell);
-stepper br_motor(4, 7, 8, minVell, maxVell);
-stepper fr_motor(12, 13, 8, minVell, maxVell);
+stepper bl_motor(bl_motor_step_ddr, bl_motor_step_wPort, bl_motor_step_bit,
+                 bl_motor_dir_ddr, bl_motor_dir_wPort, bl_motor_dir_bit,
+                 motors_enable_ddr, motors_enable_wPort, motors_enable_bit,
+                 minVell, maxVell);
+stepper fl_motor(fl_motor_step_ddr, fl_motor_step_wPort, fl_motor_step_bit,
+                 fl_motor_dir_ddr, fl_motor_dir_wPort, fl_motor_dir_bit,
+                 motors_enable_ddr, motors_enable_wPort, motors_enable_bit,
+                 minVell, maxVell);
+stepper br_motor(br_motor_step_ddr, br_motor_step_wPort, br_motor_step_bit,
+                 br_motor_dir_ddr, br_motor_dir_wPort, br_motor_dir_bit,
+                 motors_enable_ddr, motors_enable_wPort, motors_enable_bit,
+                 minVell, maxVell);
+stepper fr_motor(fr_motor_step_ddr, fr_motor_step_wPort, fr_motor_step_bit,
+                 fr_motor_dir_ddr, fr_motor_dir_wPort, fr_motor_dir_bit,
+                 motors_enable_ddr, motors_enable_wPort, motors_enable_bit,
+                 minVell, maxVell);
 
 omniRobot robot(&fl_motor, &fr_motor, &bl_motor, &br_motor);
 

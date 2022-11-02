@@ -7,10 +7,13 @@
 class stepper
 {
 private:
+    volatile uint8_t *stepDdr;
     volatile uint8_t *stepPort;
     uint8_t stepBit;
+    volatile uint8_t *directionDdr;
     volatile uint8_t *directionPort;
     uint8_t directionBit;
+    volatile uint8_t *enableDdr;
     volatile uint8_t *enablePort;
     uint8_t enableBit;
 
@@ -37,6 +40,18 @@ public:
             uint8_t _stepBit,
             volatile uint8_t *_directionPort,
             uint8_t _directionBit,
+            volatile uint8_t *_enablePort,
+            uint8_t _enableBit,
+            uint32_t _minVell,
+            uint32_t _maxVell);
+
+    stepper(volatile uint8_t *_stepDdr,
+            volatile uint8_t *_stepPort,
+            uint8_t _stepBit,
+            volatile uint8_t *_directionDdr,
+            volatile uint8_t *_directionPort,
+            uint8_t _directionBit,
+            volatile uint8_t *_enableDdr,
             volatile uint8_t *_enablePort,
             uint8_t _enableBit,
             uint32_t _minVell,
