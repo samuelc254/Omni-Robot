@@ -28,13 +28,16 @@ public:
     int32_t currentPosition;
 
     /**
-     * @brief construtor da classe stepper
-     * @param _stepPin: pino de passo do motor
-     * @param _directionPin: pino de direção do motor
-     * @param _enablePin: pino de habilitação do motor
-     * @param _minVell: velocidade mínima do motor em microssegundos (valores mais altos significam velocidades mais baixas)
-     * @param _maxVell: velocidade máxima do motor em microssegundos (valores mais baixos significam velocidades mais altas)
-     * @example stepper motor(2, 5, 8, 7000, 800); // cria um objeto stepper chamado motor
+     * @brief construtor da classe stepper sem inicialização dos pinos
+     * @param _stepPort ponteiro para o registrador de porta do pino de passo
+     * @param _stepBit bit do registrador de porta do pino de passo
+     * @param _directionPort ponteiro para o registrador de porta do pino de direção
+     * @param _directionBit bit do registrador de porta do pino de direção
+     * @param _enablePort ponteiro para o registrador de porta do pino de habilitação
+     * @param _enableBit bit do registrador de porta do pino de habilitação
+     * @param _minVell microsegundos entre passos para velocidade minima do motor (valores mais altos fazem o motor andar mais devagar)
+     * @param _maxVell microsegundos entre passos para velocidade maxima do motor (valores mais baixos fazem o motor andar mais rapido)
+     * @example stepper motor(&PORTB, 0, &PORTB, 1, &PORTB, 2, 7000, 800); // cria um objeto motor com os pinos de passo em PB0, direção em PB1 e habilitação em PB2
      */
     stepper(volatile uint8_t *_stepPort,
             uint8_t _stepBit,
@@ -45,6 +48,21 @@ public:
             uint32_t _minVell,
             uint32_t _maxVell);
 
+    /**
+     * @brief construtor da classe stepper com inicialização dos pinos
+     * @param _stepDdr ponteiro para o registrador de direção de data do pino de passo
+     * @param _stepPort ponteiro para o registrador de porta do pino de passo
+     * @param _stepBit bit do registrador de porta do pino de passo
+     * @param _directionDdr ponteiro para o registrador de direção de data do pino de direção
+     * @param _directionPort ponteiro para o registrador de porta do pino de direção
+     * @param _directionBit bit do registrador de porta do pino de direção
+     * @param _enableDdr ponteiro para o registrador de direção de data do pino de habilitação
+     * @param _enablePort ponteiro para o registrador de porta do pino de habilitação
+     * @param _enableBit bit do registrador de porta do pino de habilitação
+     * @param _minVell microsegundos entre passos para velocidade minima do motor (valores mais altos fazem o motor andar mais devagar)
+     * @param _maxVell microsegundos entre passos para velocidade maxima do motor (valores mais baixos fazem o motor andar mais rapido)
+     * @example stepper motor(&DDRB, &PORTB, 0, &DDRB, &PORTB, 1, &DDRB, &PORTB, 2, 7000, 800); // cria um objeto motor com os pinos de passo em PB0, direção em PB1 e habilitação em PB2
+     */
     stepper(volatile uint8_t *_stepDdr,
             volatile uint8_t *_stepPort,
             uint8_t _stepBit,
@@ -59,15 +77,15 @@ public:
 
     /**
      * @brief método para rotacionar o motor livremente
-     * @param Vell: velocidade do motor valores negativos significam sentido anti-horário e valores positivos significam sentido horário
+     * @param Vell velocidade do motor valores negativos significam sentido anti-horário e valores positivos significam sentido horário
      * @example stepper.run(63); // gira o motor na metade da velocidade máxima no sentido horário
      */
     void run(int8_t Vell);
 
     /**
      * @brief método para rotacionar o motor até uma posição específica
-     * @param _targetPossition: posição alvo do motor (em passos)
-     * @param vell: velocidade do motor
+     * @param _targetPossition posição alvo do motor (em passos)
+     * @param vell velocidade do motor
      * @example stepper.stepTo(1000, 255); // gira o motor até a posição 1000 na velocidade máxima
      */
     void stepTo(int32_t _targetPossition, uint8_t vell);

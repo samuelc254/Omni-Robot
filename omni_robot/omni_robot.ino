@@ -20,21 +20,21 @@
 #define maxVell 800
 #define adress 12
 
-stepper bl_motor(bl_motor_step_ddr, bl_motor_step_wPort, bl_motor_step_bit,
-                 bl_motor_dir_ddr, bl_motor_dir_wPort, bl_motor_dir_bit,
-                 motors_enable_ddr, motors_enable_wPort, motors_enable_bit,
+stepper bl_motor(&bl_motor_step_ddr, &bl_motor_step_wPort, bl_motor_step_bit,
+                 &bl_motor_dir_ddr, &bl_motor_dir_wPort, bl_motor_dir_bit,
+                 &motors_enable_ddr, &motors_enable_wPort, motors_enable_bit,
                  minVell, maxVell);
-stepper fl_motor(fl_motor_step_ddr, fl_motor_step_wPort, fl_motor_step_bit,
-                 fl_motor_dir_ddr, fl_motor_dir_wPort, fl_motor_dir_bit,
-                 motors_enable_ddr, motors_enable_wPort, motors_enable_bit,
+stepper fl_motor(&fl_motor_step_ddr, &fl_motor_step_wPort, fl_motor_step_bit,
+                 &fl_motor_dir_ddr, &fl_motor_dir_wPort, fl_motor_dir_bit,
+                 &motors_enable_ddr, &motors_enable_wPort, motors_enable_bit,
                  minVell, maxVell);
-stepper br_motor(br_motor_step_ddr, br_motor_step_wPort, br_motor_step_bit,
-                 br_motor_dir_ddr, br_motor_dir_wPort, br_motor_dir_bit,
-                 motors_enable_ddr, motors_enable_wPort, motors_enable_bit,
+stepper br_motor(&br_motor_step_ddr, &br_motor_step_wPort, br_motor_step_bit,
+                 &br_motor_dir_ddr, &br_motor_dir_wPort, br_motor_dir_bit,
+                 &motors_enable_ddr, &motors_enable_wPort, motors_enable_bit,
                  minVell, maxVell);
-stepper fr_motor(fr_motor_step_ddr, fr_motor_step_wPort, fr_motor_step_bit,
-                 fr_motor_dir_ddr, fr_motor_dir_wPort, fr_motor_dir_bit,
-                 motors_enable_ddr, motors_enable_wPort, motors_enable_bit,
+stepper fr_motor(&fr_motor_step_ddr, &fr_motor_step_wPort, fr_motor_step_bit,
+                 &fr_motor_dir_ddr, &fr_motor_dir_wPort, fr_motor_dir_bit,
+                 &motors_enable_ddr, &motors_enable_wPort, motors_enable_bit,
                  minVell, maxVell);
 
 omniRobot robot(&fl_motor, &fr_motor, &bl_motor, &br_motor);
@@ -70,7 +70,7 @@ void loop()
   SerialPrintln(robot.br_speed);
 
 #if DEBUG_MODE == 0
-  robot.move(x, y, w);
+  robot.move(x, -y, w);
 #else
   x = 127;
   y = 100;
