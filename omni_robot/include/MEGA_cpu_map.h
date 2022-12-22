@@ -1,6 +1,5 @@
-#ifndef DEFINES_H
-#define DEFINES_H
-#define cpu_map_for_MEGA
+#ifndef MEGA_cpu_map_H
+#define MEGA_cpu_map_H
 
 #define fr_motor_step_ddr DDRB
 #define fr_motor_step_wPort PORTB
@@ -47,16 +46,15 @@
 #define motors_enable_rPort PINH
 #define motors_enable_bit 5
 
-#define I2C_controller_SCL_ddr DDRC
+#define I2C_controller_SCL_ddr DDRD
 #define I2C_controller_SCL_wPort PORTD
 #define I2C_controller_SCL_rPort PIND
 #define I2C_controller_SCL_bit 0
 
-#define I2C_controller_SDA_ddr DDRC
+#define I2C_controller_SDA_ddr DDRD
 #define I2C_controller_SDA_wPort PORTD
 #define I2C_controller_SDA_rPort PIND
 #define I2C_controller_SDA_bit 1
-
 
 #define SetBit(RES, BIT)(RES |= (1 << BIT)) // Set BIT in RES to HIGH
 #define ClrBit(RES, BIT)(RES &= ~ (1 << BIT)) // Set BIT in RES to LOW
